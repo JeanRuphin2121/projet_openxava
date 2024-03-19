@@ -4,7 +4,10 @@ package aka.salako.projet_openxava.model;
 import java.math.*;
 
 import javax.persistence.*;
+
+import lombok.*;
 @Entity
+@Data
 public class Bet {
 
     @Id

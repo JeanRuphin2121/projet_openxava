@@ -4,7 +4,10 @@ import java.math.*;
 
 import javax.persistence.*;
 
+import lombok.*;
+
 @Entity
+@Data
 public class User {
 
     @Id

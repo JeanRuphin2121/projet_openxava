@@ -1,10 +1,13 @@
 package aka.salako.projet_openxava.model;
 
-import java.time.*;
+import java.util.*;
 
 import javax.persistence.*;
 
+import lombok.*;
+
 @Entity
+@Data
 public class SportEvent {
 
     @Id
@@ -15,7 +18,7 @@ public class SportEvent {
     private String eventName;
 
     @Column
-    private LocalDateTime eventDateAndTime;
+    private Date eventDateAndTime;
 
     @Column
     private String homeTeam;

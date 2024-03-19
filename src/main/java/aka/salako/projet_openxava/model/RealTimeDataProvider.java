@@ -4,7 +4,10 @@ import java.util.*;
 
 import javax.persistence.*;
 
+import lombok.*;
+
 @Entity
+@Data
 public class RealTimeDataProvider {
 
     @Id
